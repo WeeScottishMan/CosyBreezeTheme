@@ -8,47 +8,46 @@
    CSS VARIABLES
 ═══════════════════════════════════════════════════ */
 :root {
-    --border-color: rgba(255, 255, 255, 0.2);
-    --background-color: #303030;
-    --pane-color: #2c2c2c;
-    --side-pane-color: #202020;
-    --header-background-color: #202020cc;
-    --header-background-color-blur-disabled: #202020;
-    --tooltip-background-color: #353535;
-    --chat-input-background-color: #303030db;
-    --chat-input-background-color-blur-disabled: #303030;
-    --chat-markup-bar-background-color: #303030db;
-    --chat-markup-bar-background-color-blur-disabled: #303030;
-    --message-hover-background-color: #ffffff19;
-    --message-floating-options-background-color: rgb(40, 40, 40);
-    --primary-color: #ffd8ca;
-    --primary-color-dark: #d4b0a4;
-    --alert-color: #e48888;
-    --alert-color-dark: #925656;
-    --warn-color: #e2ac80;
-    --warn-color-dark: #a58369;
-    --success-color: #9bd39e;
-    --success-color-dark: #74a277;
-    --status-offline: #a6a6a6;
-    --status-online: #9bd39e;
-    --status-looking-to-play: #7ea6db;
-    --status-away-from-keyboard: #e2ac80;
-    --status-do-not-disturb: #e48888;
-    --text-color: #ffffff;
-    --content-color: #ffffff;
-    --side-pane-text-color: #ffd8ca;
-    --typing-indicator-color: #ffd8ca;
-    --typing-indicator-secondary-color: #ffd8ca;
-    --markup-code-background-color: #3030301e;
-    --markup-mention-background-color: #30303033;
-    --markup-mention-background-color-hover: #30303099;
-    --markup-codeblock-background-color: #30303099;
-    --markup-spoiler-background-color: #303030;
-    --markup-spoiler-background-color-hover: #303030;
-    --drawer-item-background-color: #ffe9d73d;
-    --drawer-item-hover-background-color: #ffffff19;
+  --border-color: rgba(255, 255, 255, 0.2);
+  --background-color: #303030 !important;
+  --pane-color: #2c2c2c !important;
+  --side-pane-color: #202020 !important;
+  --header-background-color: #202020cc !important;
+  --header-background-color-blur-disabled: #202020 !important;
+  --tooltip-background-color: #353535 !important;
+  --chat-input-background-color: #303030db !important;
+  --chat-input-background-color-blur-disabled: #303030 !important;
+  --chat-markup-bar-background-color: #303030db !important;
+  --chat-markup-bar-background-color-blur-disabled: #303030 !important;
+  --message-hover-background-color: #ffffff19 !important;
+  --message-floating-options-background-color: rgb(40, 40, 40) !important;
+  --primary-color: #ffd8ca !important;
+  --primary-color-dark: #d4b0a4 !important;
+  --alert-color: #e48888 !important;
+  --alert-color-dark: #925656 !important;
+  --warn-color: #e2ac80 !important;
+  --warn-color-dark: #a58369 !important;
+  --success-color: #9bd39e !important;
+  --success-color-dark: #74a277 !important;
+  --status-offline: #a6a6a6 !important;
+  --status-online: #9bd39e !important;
+  --status-looking-to-play: #7ea6db !important;
+  --status-away-from-keyboard: #e2ac80 !important;
+  --status-do-not-disturb: #e48888 !important;
+  --text-color: #ffffff !important;
+  --content-color: #ffffff !important;
+  --side-pane-text-color: #ffd8ca !important;
+  --typing-indicator-color: #ffd8ca !important;
+  --typing-indicator-secondary-color: #ffd8ca !important;
+  --markup-code-background-color: #3030301e !important;
+  --markup-mention-background-color: #30303033 !important;
+  --markup-mention-background-color-hover: #30303099 !important;
+  --markup-codeblock-background-color: #30303099 !important;
+  --markup-spoiler-background-color: #303030 !important;
+  --markup-spoiler-background-color-hover: #303030 !important;
+  --drawer-item-background-color: #ffe9d73d !important;
+  --drawer-item-hover-background-color: #ffffff19 !important;
 }
-
 
 /* ═══════════════════════════════════════════════════
    MODAL OVERRIDES
