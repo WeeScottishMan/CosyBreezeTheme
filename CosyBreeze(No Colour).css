@@ -369,8 +369,8 @@ body ._button_1ctlh_31 {
 ._container_f3zk3_28._selected_f3zk3_43::after {
   content: '';
   position: absolute;
-  top: 52%;
-  left: 52%;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -60%) rotate(45deg);
   width: 4px;
   height: 8px;
