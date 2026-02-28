@@ -288,6 +288,10 @@ body ._floating_1xvkj_77._floatingSlowModeIndicator_1xvkj_104 {
   top: -28px;
 }
 
+._floatingTypingContainer_1xvkj_77 {
+  top: -28px;
+}
+
 ._messageArea_1xvkj_124 ._floating_1xvkj_77._floatingSuggestion_1xvkj_188 ._suggestionItem_1xvkj_196 {
   border: solid 2px rgba(0, 0, 0, 0);
   background-color: var(--pane-color) !important;
