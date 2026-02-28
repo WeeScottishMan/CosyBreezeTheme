@@ -251,6 +251,22 @@ body.disableBlur ._container_1ctlh_1 {
   background-color: rgba(0, 0, 0, 0);
 }
 
+.go2521613729.go476946538 {
+  border: solid 2px var(--border-color) !important;
+  width: 195px;
+}
+
+.go2521613729.go476946538:hover {
+  background-color: var(--pane-color);
+  border: solid 2px var(--primary-color-dark) !important;
+  width: 195px;
+}
+
+.go643849226.go476946538 {
+  background-color: var(--pane-color);
+  border: solid 2px var(--primary-color) !important;
+  width: 195px;
+}
 
 /* ═══════════════════════════════════════════════════
    MESSAGE AREA
