@@ -506,8 +506,8 @@ div.go765773769.go3158075832[data-selected="true"],
   background-color: var(--pane-color) !important;
   margin-top: 6px;
   margin-bottom: 3px;
-  margin-left: 4px;
-  margin-right: 4px;
+  margin-left: 2px;
+  margin-right: 2px;
   padding-top: 2px;
   padding-bottom: 2px;
 }
@@ -518,8 +518,8 @@ div.go765773769.go3158075832[data-selected="true"],
   background-color: var(--drawer-item-hover-background-color) !important;
   margin-top: 6px;
   margin-bottom: 3px;
-  margin-left: 4px;
-  margin-right: 4px;
+  margin-left: 2px;
+  margin-right: 2px;
   padding-top: 2px;
   padding-bottom: 2px;
   transform: scale(1.025);
