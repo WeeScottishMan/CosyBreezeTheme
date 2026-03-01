@@ -404,7 +404,7 @@ body ._button_1ctlh_31 {
   border: solid 2px var(--border-color);
 }
 
-._container_f3zk3_28._selected_f3zk3_43::after {
+._container_f3zk3_28._selected_f3zk3_43 ._checkbox_f3zk3_1::after {
   content: '';
   position: absolute;
   top: 50%;
@@ -416,7 +416,6 @@ body ._button_1ctlh_31 {
   border-bottom: 2px solid var(--background-color);
   pointer-events: none;
 }
-
 
 /* ═══════════════════════════════════════════════════
    POSTS & ROLES
