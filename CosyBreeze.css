@@ -191,6 +191,7 @@ body.disableBlur ._container_1ctlh_1 {
   margin-right: 2px;
   padding-top: 2px;
   padding-bottom: 2px;
+  transition: transform 0.2s ease;
 }
 
 .go3158075832:not(.sortablejs_serverList_udj0y_1 .go3158075832):not(._serverItem_udj0y_64):not(.go765773769.go3158075832):not(.go197466023.go3158075832) {
