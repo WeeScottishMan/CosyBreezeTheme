@@ -1,0 +1,1171 @@
+
+
+View all
+
+/* ═══════════════════════════════════════════════════
+CSS IMPORTS
+═══════════════════════════════════════════════════ */
+
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
+/* ═══════════════════════════════════════════════════
+CSS COLOUR VARIABLES
+═══════════════════════════════════════════════════ */
+
+/* Colour Customisation */
+:root {
+--border-color: rgba(255, 255, 255, 0.2);
+--background-color: #303030 !important;
+--pane-color: #2c2c2c !important;
+--side-pane-color: #202020 !important;
+--header-background-color: #202020cc !important;
+--header-background-color-blur-disabled: #202020 !important;
+--tooltip-background-color: #353535 !important;
+--chat-input-background-color: #303030db !important;
+--chat-input-background-color-blur-disabled: #303030 !important;
+--chat-markup-bar-background-color: #303030db !important;
+--chat-markup-bar-background-color-blur-disabled: #303030 !important;
+--message-hover-background-color: #ffffff19 !important;
+--message-floating-options-background-color: rgb(40, 40, 40) !important;
+--primary-color: #ffd8ca !important;
+--primary-color-dark: #d4b0a4 !important;
+--alert-color: #e48888 !important;
+--alert-color-dark: #925656 !important;
+--warn-color: #e2ac80 !important;
+--warn-color-dark: #a58369 !important;
+--success-color: #9bd39e !important;
+--success-color-dark: #74a277 !important;
+--status-offline: #a6a6a6 !important;
+--status-online: #9bd39e !important;
+--status-looking-to-play: #7ea6db !important;
+--status-away-from-keyboard: #e2ac80 !important;
+--status-do-not-disturb: #e48888 !important;
+--text-color: #ffffff !important;
+--content-color: #ffffff !important;
+--side-pane-text-color: #ffd8ca !important;
+--typing-indicator-color: #ffd8ca !important;
+--typing-indicator-secondary-color: #ffd8ca !important;
+--markup-code-background-color: #3030301e !important;
+--markup-mention-background-color: #30303033 !important;
+--markup-mention-background-color-hover: #30303099 !important;
+--markup-codeblock-background-color: #30303099 !important;
+--markup-spoiler-background-color: #303030 !important;
+--markup-spoiler-background-color-hover: #303030 !important;
+--drawer-item-background-color: #ffe9d73d !important;
+--drawer-item-hover-background-color: #ffffff19 !important;
+}
+
+.modal._flyoutContainer_18doz_1._profileSettingsShown_18doz_42 {
+--primary-color:var(--primary-color) !important;
+--background-color: var(--pane-color) !important;
+}
+
+/* ═══════════════════════════════════════════════════
+FONTS
+═══════════════════════════════════════════════════ */
+
+body {
+accent-color: var(--primary-color);
+font-family: "Delius" !important;
+}
+
+
+/* ═══════════════════════════════════════════════════
+SETTINGS SIDEBAR
+═══════════════════════════════════════════════════ */
+
+/* Settings Sidebar Buttons */
+
+.go3719686344 {
+background-color: var(--pane-color) !important;
+border: solid 2px rgba(0, 0, 0, 0);
+margin-top: 6px;
+margin-left: 6px;
+margin-right: 6px;
+padding-top: 3px;
+padding-bottom: 3px;
+}
+
+.go3719686344:hover {
+background-color: var(--drawer-item-hover-background-color) !important;
+border: solid 2px var(--border-color);
+margin-top: 6px;
+margin-left: 6px;
+margin-right: 6px;
+padding-top: 3px;
+padding-bottom: 3px;
+transform: scale(1.025);
+transition: transform 0.2s ease;
+}
+
+/* Selected Sidebar Button */
+
+.go765773769.go3158075832 {
+background-color: var(--drawer-item-hover-background-color) !important;
+border: solid 2px var(--border-color);
+margin-top: 6px;
+margin-left: 6px;
+margin-right: 6px;
+padding-top: 3px;
+padding-bottom: 3px;
+}
+
+/* Sidebar Source/Changes/Logout Buttons */
+
+.go4099122902 {
+border: solid 2px var(--border-color);
+}
+
+/* Sidebar Call Menu */
+
+.go2417012679.go476946538 {
+background-color: var(--pane-color) !important;
+border: solid 2px var(--border-color);
+}
+
+
+/* Hide Version Info */
+
+.go3196304228.go476946538 {
+display: none;
+}
+
+/* Support Button */
+
+.go197466023.go3463187318 {
+border: solid 2px rgba(0, 0, 0, 0);
+}
+
+/* Custom Tick Box */
+
+._container_1pcie_29._selected_1pcie_41 ._checkbox_1pcie_1 {
+position: relative;
+color: rgba(0, 0, 0, 0,);
+}
+
+._container_1pcie_29._selected_1pcie_41 ._checkbox_1pcie_1::after {
+content: '';
+position: absolute;
+top: 50%;
+left: 50%;
+width: 4px;
+height: 8px;
+border-right: 2px solid var(--background-color);
+border-bottom: 2px solid var(--background-color);
+transform: translate(-50%, -60%) rotate(45deg);
+pointer-events: none;
+}
+
+/* ═══════════════════════════════════════════════════
+SETTINGS PAGES
+═══════════════════════════════════════════════════ */
+
+/* Notice Container Border */
+
+._noticeContainer_71hzv_1 {
+border: solid 2px var(--border-color);
+}
+
+/* Support Button */
+
+.go398351937.go3463187318 {
+background: var(--pane-color) !important;
+border: solid 2px var(--border-color);
+}
+
+/* Settings/Home Button */
+
+.go197466023.go3158075832 {
+border: solid 2px var(--border-color);
+}
+
+/* Reset/Forgot Password Font */
+
+.go3787796972 {
+font-family: "Delius" !important;
+}
+
+/* Markdown Box */
+
+.go2970725944 {
+background: var(--pane-color) !important;
+border-radius: 6px;
+}
+
+.go2701703472.go476946538 {
+border: solid 2px var(--border-color);
+}
+
+._container_1ctlh_1 {
+margin-top: 8px;
+}
+
+.go2701703472.go476946538 {
+border-radius: 6px !important;
+}
+
+/* Markdown Box Formatting Options */
+
+body.disableBlur._container_1ctlh_1 {
+border: solid 2px var(--border-color);
+background: var(--pane-color) !important;
+border-radius: 6px;
+}
+
+._container_1ctlh_1 {
+border: solid 2px var(--border-color);
+background: var(--pane-color) !important;
+border-radius: 6px;
+margin-top: 10px !important;
+margin-bottom: 10px !important;
+}
+
+.go2260755471.go2260755471 {
+border-radius: 6px !important;
+}
+
+/* Notification Sound Box Background */
+
+._box_16e2h_14 {
+background-color: rgba(0, 0, 0, 0);
+}
+
+/* Text Boxes/Drop Down Menu Background */
+
+.go207319105 {
+background-color: rgba(0, 0, 0, 0);
+}
+
+.go2853948815 {
+border: solid 2px var(--border-color);
+background: var(--pane-color) !important;
+}
+
+/* Circle Buttons */
+
+.go2830620422.selected {
+background: var(--pane-color) !important;
+}
+
+._checkbox_1pcie_1 {
+border: solid 2px var(--border-color);
+}
+
+/* ═══════════════════════════════════════════════════
+HOMEPAGE
+═══════════════════════════════════════════════════ */
+
+/* Explore/Homepage Buttons */
+
+._itemRoot_1myzs_1._item_a5j9u_14 {
+background-color: var(--pane-color) !important;
+border: solid 2px rgba(0, 0, 0, 0);
+margin-top: 4px;
+margin-bottom: 4px;
+margin-left: 2px;
+margin-right: 2px;
+padding-top: 3px;
+padding-bottom: 3px;
+}
+
+._itemRoot_1myzs_1._item_a5j9u_14:hover {
+background-color: var(--drawer-item-hover-background-color) !important;
+border: solid 2px var(--border-color);
+margin-top: 4px;
+margin-bottom: 4px;
+margin-left: 2px;
+margin-right: 2px;
+padding-top: 3px;
+padding-bottom: 3px;
+transform: scale(1.025);
+transition: transform 0.2s ease;
+}
+
+._itemRoot_1myzs_1._item_a5j9u_14[data-selected="true"] {
+background-color: var(--drawer-item-hover-background-color) !important;
+border: solid 2px var(--border-color);
+margin-top: 4px;
+margin-bottom: 4px;
+margin-left: 2px;
+margin-right: 2px;
+padding-top: 3px;
+padding-bottom: 3px;
+}
+
+/* Scrollbar */
+
+._scrollbarContainer_1oc1z_1.go2444711767 {
+display: none;
+}
+
+/* Notes Add Friends And Blocked Buttons */
+
+.go95389665._horizontalItem_a5j9u_157 {
+background-color: var(--pane-color) !important;
+border: solid 2px rgba(0, 0, 0, 0);
+margin-top: 4px;
+margin-bottom: 4px;
+margin-left: 2px;
+margin-right: 2px;
+padding-top: 6px;
+padding-bottom: 6px;
+}
+
+.go95389665._horizontalItem_a5j9u_157:hover {
+background-color: var(--drawer-item-hover-background-color) !important;
+border: solid 2px var(--border-color);
+margin-top: 4px;
+margin-bottom: 4px;
+margin-left: 2px;
+margin-right: 2px;
+padding-top: 6px;
+padding-bottom: 6px;
+transform: scale(1.025);
+transition: transform 0.2s ease;
+}
+
+
+.go95389665._horizontalItem_a5j9u_157[data-selected="true"] {
+background-color: var(--drawer-item-hover-background-color) !important;
+border: solid 2px var(--border-color);
+margin-top: 4px;
+margin-bottom: 4px;
+margin-left: 2px;
+margin-right: 2px;
+padding-top: 6px;
+padding-bottom: 6px;
+}
+
+/* Friends List */
+
+._itemRoot_1myzs_1._friendContainer_12n0h_59 {
+background-color: var(--background-color-color) !important;
+border: solid 2px rgba(0, 0, 0, 0);
+margin-top: 2px;
+margin-bottom: 2px;
+margin-left: 2px;
+margin-right: 2px;
+}
+
+._itemRoot_1myzs_1._friendContainer_12n0h_59:hover {
+background-color: var(--drawer-item-hover-background-color) !important;
+border: solid 2px var(--border-color);
+margin-top: 2px;
+margin-bottom: 2px;
+margin-left: 2px;
+margin-right: 2px;
+transform: scale(1.025);
+transition: transform 0.2s ease;
+}
+
+._itemRoot_1myzs_1._friendContainer_12n0h_59[data-selected="true"] {
+background-color: var(--drawer-item-hover-background-color) !important;
+border: solid 2px var(--border-color);
+margin-top: 2px;
+margin-bottom: 2px;
+margin-left: 2px;
+margin-right: 2px;
+}
+
+
+/* ═══════════════════════════════════════════════════
+MOBILE
+═══════════════════════════════════════════════════ */
+
+
+/* Phone Navigation Bar */
+
+.mobileBottomPane._container_jg952_1._show_jg952_19 {
+border: solid 2px var(--border-color);
+margin-top: 12px;
+}
+
+.go2701703472 {
+background-color: var(--pane-color) !important;
+}
+
+.go2701703472.go476946538 > .go2970725944 {
+border: solid 2px rgba(0, 0, 0, 0) !important;
+}
+
+
+/* ═══════════════════════════════════════════════════
+MESSAGING
+═══════════════════════════════════════════════════ */
+
+/* Pop Up Menu */
+
+._floatOptions_12hk8_107.floatOptions {
+border: solid 2px var(--border-color);
+}
+
+/* Back To Bottom Pop Up */
+
+._messageArea_1pciz_150 ._backToBottom_1pciz_8 {
+border: solid 2px var(--border-color) !important;
+}
+
+/* Misc Button Outline */
+
+._container_1qike_1 {
+border: solid 0px var(--border-color) !important;
+}
+
+/* Messaging Box */
+
+._textAreaContainer_1pciz_4._advancedMarkupShown_1pciz_408 {
+border: solid 2px var(--border-color) !important;
+border-radius: 6px !important;
+}
+
+/* Mark Down Options */
+
+._container_1ctlh_1._zeroBottomBorderRadius_1ctlh_20 {
+border-radius: 6px !important;
+margin-bottom: 6px;
+}
+
+/* Emoji Menu Background */
+
+._emojiPicker_19p1i_65 {
+background-color: var(--pane-color) !important;
+}
+
+/* Emoji Menu Heading Background */
+
+.go293357438 {
+background-color: rgba(255, 255, 255, 0.1);
+}
+
+.go1412065832 {
+background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Right Click Menu */
+
+._contextMenu_7km1c_1 {
+border: solid 2px var(--border-color) !important;
+}
+
+/* Profile Outline */
+
+._flyoutInnerContainer_18doz_21 {
+outline: 0px solid #fff3 !important;
+}
+
+/* Server Invite */
+
+._serverInviteEmbed_12hk8_580 {
+border: solid 2px var(--border-color) !important;
+margin-top: 6px;
+}
+
+/* Youtube Embed */
+
+._youtubeEmbed_12hk8_730 {
+border: solid 2px var(--border-color) !important;
+margin-top: 6px;
+}
+
+/* ═══════════════════════════════════════════════════
+NERIMITY SERVERS
+═══════════════════════════════════════════════════ */
+
+/* Server Channel List */
+
+.go2336239359.go3463187318 {
+background-color: var(--pane-color) !important;
+border: solid 2px rgba(0, 0, 0, 0);
+margin-top: 4px;
+margin-bottom: 4px;
+margin-left: 2px;
+margin-right: 2px;
+padding-top: 2px;
+padding-bottom: 2px;
+}
+
+.go2336239359.go3463187318:hover {
+background-color: var(--drawer-item-hover-background-color) !important;
+border: solid 2px var(--border-color);
+margin-top: 4px;
+margin-bottom: 4px;
+margin-left: 2px;
+margin-right: 2px;
+padding-top: 2px;
+padding-bottom: 2px;
+transform: scale(1.025);
+transition: transform 0.2s ease;
+}
+
+/* Selected Channel */
+
+.go3747175756.go3158075832 {
+background-color: var(--drawer-item-hover-background-color) !important;
+border: solid 2px var(--border-color);
+margin-top: 4px;
+margin-bottom: 4px;
+margin-left: 2px;
+margin-right: 2px;
+padding-top: 2px;
+padding-bottom: 2px;
+}
+
+/* Alerted Channels */
+
+.go2336239359.go2683701063 {
+background-color: var(--pane-color) !important;
+border: solid 2px rgba(0, 0, 0, 0);
+margin-top: 4px;
+margin-bottom: 4px;
+margin-left: 2px;
+margin-right: 2px;
+padding-top: 2px;
+padding-bottom: 2px;
+}
+
+.go2336239359.go2683701063:hover {
+background-color: var(--drawer-item-hover-background-color) !important;
+border: solid 2px var(--border-color);
+margin-top: 4px;
+margin-bottom: 4px;
+margin-left: 2px;
+margin-right: 2px;
+padding-top: 2px;
+padding-bottom: 2px;
+transform: scale(1.025);
+transition: transform 0.2s ease;
+}
+
+/* Selected Alerted Channel */
+
+.go3747175756.go1332526169 {
+background-color: var(--drawer-item-hover-background-color) !important;
+border: solid 2px var(--border-color);
+margin-top: 4px;
+margin-bottom: 4px;
+margin-left: 2px;
+margin-right: 2px;
+padding-top: 2px;
+padding-bottom: 2px;
+}
+
+/* Server Settings Sidebar */
+
+.go2953153364.go3463187318 {
+background-color: var(--pane-color) !important;
+border: solid 2px rgba(0, 0, 0, 0);
+margin-top: 4px;
+margin-bottom: 4px;
+margin-left: 2px;
+margin-right: 2px;
+padding-top: 2px;
+padding-bottom: 2px;
+}
+
+.go2953153364.go3463187318:hover {
+background-color: var(--drawer-item-hover-background-color) !important;
+border: solid 2px var(--border-color);
+margin-top: 4px;
+margin-bottom: 4px;
+margin-left: 2px;
+margin-right: 2px;
+padding-top: 2px;
+padding-bottom: 2px;
+transform: scale(1.025);
+transition: transform 0.2s ease;
+}
+
+/* Selected Server Setting */
+
+.go4294208085.go3158075832 {
+background-color: var(--drawer-item-hover-background-color) !important;
+border: solid 2px var(--border-color);
+margin-top: 4px;
+margin-bottom: 4px;
+margin-left: 2px;
+margin-right: 2px;
+padding-top: 2px;
+padding-bottom: 2px;
+}
+
+Improve the formatting of this CSS make it have more clear spacing, improve wording of comments and use good indentations on lines of code, DO NOT CHANGE THE CSS IN ANY OTHER WAY
+Completed 1 step
+
+css
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
+/* ==========================================================================
+   Colour variables
+   ========================================================================== */
+
+/* Theme customisation */
+:root {
+  --border-color: rgba(255, 255, 255, 0.2);
+  --background-color: #303030 !important;
+  --pane-color: #2c2c2c !important;
+  --side-pane-color: #202020 !important;
+  --header-background-color: #202020cc !important;
+  --header-background-color-blur-disabled: #202020 !important;
+  --tooltip-background-color: #353535 !important;
+  --chat-input-background-color: #303030db !important;
+  --chat-input-background-color-blur-disabled: #303030 !important;
+  --chat-markup-bar-background-color: #303030db !important;
+  --chat-markup-bar-background-color-blur-disabled: #303030 !important;
+  --message-hover-background-color: #ffffff19 !important;
+  --message-floating-options-background-color: rgb(40, 40, 40) !important;
+  --primary-color: #ffd8ca !important;
+  --primary-color-dark: #d4b0a4 !important;
+  --alert-color: #e48888 !important;
+  --alert-color-dark: #925656 !important;
+  --warn-color: #e2ac80 !important;
+  --warn-color-dark: #a58369 !important;
+  --success-color: #9bd39e !important;
+  --success-color-dark: #74a277 !important;
+  --status-offline: #a6a6a6 !important;
+  --status-online: #9bd39e !important;
+  --status-looking-to-play: #7ea6db !important;
+  --status-away-from-keyboard: #e2ac80 !important;
+  --status-do-not-disturb: #e48888 !important;
+  --text-color: #ffffff !important;
+  --content-color: #ffffff !important;
+  --side-pane-text-color: #ffd8ca !important;
+  --typing-indicator-color: #ffd8ca !important;
+  --typing-indicator-secondary-color: #ffd8ca !important;
+  --markup-code-background-color: #3030301e !important;
+  --markup-mention-background-color: #30303033 !important;
+  --markup-mention-background-color-hover: #30303099 !important;
+  --markup-codeblock-background-color: #30303099 !important;
+  --markup-spoiler-background-color: #303030 !important;
+  --markup-spoiler-background-color-hover: #303030 !important;
+  --drawer-item-background-color: #ffe9d73d !important;
+  --drawer-item-hover-background-color: #ffffff19 !important;
+}
+
+.modal._flyoutContainer_18doz_1._profileSettingsShown_18doz_42 {
+  --primary-color: var(--primary-color) !important;
+  --background-color: var(--pane-color) !important;
+}
+
+/* ==========================================================================
+   Fonts
+   ========================================================================== */
+
+body {
+  accent-color: var(--primary-color);
+  font-family: "Delius" !important;
+}
+
+/* ==========================================================================
+   Settings sidebar
+   ========================================================================== */
+
+/* Sidebar buttons */
+
+.go3719686344 {
+  background-color: var(--pane-color) !important;
+  border: solid 2px rgba(0, 0, 0, 0);
+  margin-top: 6px;
+  margin-right: 6px;
+  margin-left: 6px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.go3719686344:hover {
+  background-color: var(--drawer-item-hover-background-color) !important;
+  border: solid 2px var(--border-color);
+  margin-top: 6px;
+  margin-right: 6px;
+  margin-left: 6px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  transform: scale(1.025);
+  transition: transform 0.2s ease;
+}
+
+/* Selected sidebar button */
+
+.go765773769.go3158075832 {
+  background-color: var(--drawer-item-hover-background-color) !important;
+  border: solid 2px var(--border-color);
+  margin-top: 6px;
+  margin-right: 6px;
+  margin-left: 6px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+/* Sidebar source, changes, and logout buttons */
+
+.go4099122902 {
+  border: solid 2px var(--border-color);
+}
+
+/* Sidebar call menu */
+
+.go2417012679.go476946538 {
+  background-color: var(--pane-color) !important;
+  border: solid 2px var(--border-color);
+}
+
+/* Hide version info */
+
+.go3196304228.go476946538 {
+  display: none;
+}
+
+/* Support button */
+
+.go197466023.go3463187318 {
+  border: solid 2px rgba(0, 0, 0, 0);
+}
+
+/* Custom tick box */
+
+._container_1pcie_29._selected_1pcie_41 ._checkbox_1pcie_1 {
+  position: relative;
+  color: rgba(0, 0, 0, 0,);
+}
+
+._container_1pcie_29._selected_1pcie_41 ._checkbox_1pcie_1::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 4px;
+  height: 8px;
+  border-right: 2px solid var(--background-color);
+  border-bottom: 2px solid var(--background-color);
+  transform: translate(-50%, -60%) rotate(45deg);
+  pointer-events: none;
+}
+
+/* ==========================================================================
+   Settings pages
+   ========================================================================== */
+
+/* Notice container border */
+
+._noticeContainer_71hzv_1 {
+  border: solid 2px var(--border-color);
+}
+
+/* Support button */
+
+.go398351937.go3463187318 {
+  background: var(--pane-color) !important;
+  border: solid 2px var(--border-color);
+}
+
+/* Settings and home button */
+
+.go197466023.go3158075832 {
+  border: solid 2px var(--border-color);
+}
+
+/* Reset and forgot password font */
+
+.go3787796972 {
+  font-family: "Delius" !important;
+}
+
+/* Markdown box */
+
+.go2970725944 {
+  background: var(--pane-color) !important;
+  border-radius: 6px;
+}
+
+.go2701703472.go476946538 {
+  border: solid 2px var(--border-color);
+}
+
+._container_1ctlh_1 {
+  margin-top: 8px;
+}
+
+.go2701703472.go476946538 {
+  border-radius: 6px !important;
+}
+
+/* Markdown box formatting options */
+
+body.disableBlur._container_1ctlh_1 {
+  border: solid 2px var(--border-color);
+  background: var(--pane-color) !important;
+  border-radius: 6px;
+}
+
+._container_1ctlh_1 {
+  border: solid 2px var(--border-color);
+  background: var(--pane-color) !important;
+  border-radius: 6px;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+.go2260755471.go2260755471 {
+  border-radius: 6px !important;
+}
+
+/* Notification sound box background */
+
+._box_16e2h_14 {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/* Text box and dropdown background */
+
+.go207319105 {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.go2853948815 {
+  border: solid 2px var(--border-color);
+  background: var(--pane-color) !important;
+}
+
+/* Circle buttons */
+
+.go2830620422.selected {
+  background: var(--pane-color) !important;
+}
+
+._checkbox_1pcie_1 {
+  border: solid 2px var(--border-color);
+}
+
+/* ==========================================================================
+   Homepage
+   ========================================================================== */
+
+/* Explore and homepage buttons */
+
+._itemRoot_1myzs_1._item_a5j9u_14 {
+  background-color: var(--pane-color) !important;
+  border: solid 2px rgba(0, 0, 0, 0);
+  margin-top: 4px;
+  margin-right: 2px;
+  margin-bottom: 4px;
+  margin-left: 2px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+._itemRoot_1myzs_1._item_a5j9u_14:hover {
+  background-color: var(--drawer-item-hover-background-color) !important;
+  border: solid 2px var(--border-color);
+  margin-top: 4px;
+  margin-right: 2px;
+  margin-bottom: 4px;
+  margin-left: 2px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  transform: scale(1.025);
+  transition: transform 0.2s ease;
+}
+
+._itemRoot_1myzs_1._item_a5j9u_14[data-selected="true"] {
+  background-color: var(--drawer-item-hover-background-color) !important;
+  border: solid 2px var(--border-color);
+  margin-top: 4px;
+  margin-right: 2px;
+  margin-bottom: 4px;
+  margin-left: 2px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+/* Scrollbar */
+
+._scrollbarContainer_1oc1z_1.go2444711767 {
+  display: none;
+}
+
+/* Notes, add friends, and blocked buttons */
+
+.go95389665._horizontalItem_a5j9u_157 {
+  background-color: var(--pane-color) !important;
+  border: solid 2px rgba(0, 0, 0, 0);
+  margin-top: 4px;
+  margin-right: 2px;
+  margin-bottom: 4px;
+  margin-left: 2px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.go95389665._horizontalItem_a5j9u_157:hover {
+  background-color: var(--drawer-item-hover-background-color) !important;
+  border: solid 2px var(--border-color);
+  margin-top: 4px;
+  margin-right: 2px;
+  margin-bottom: 4px;
+  margin-left: 2px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  transform: scale(1.025);
+  transition: transform 0.2s ease;
+}
+
+.go95389665._horizontalItem_a5j9u_157[data-selected="true"] {
+  background-color: var(--drawer-item-hover-background-color) !important;
+  border: solid 2px var(--border-color);
+  margin-top: 4px;
+  margin-right: 2px;
+  margin-bottom: 4px;
+  margin-left: 2px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+/* Friends list */
+
+._itemRoot_1myzs_1._friendContainer_12n0h_59 {
+  background-color: var(--background-color-color) !important;
+  border: solid 2px rgba(0, 0, 0, 0);
+  margin-top: 2px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  margin-left: 2px;
+}
+
+._itemRoot_1myzs_1._friendContainer_12n0h_59:hover {
+  background-color: var(--drawer-item-hover-background-color) !important;
+  border: solid 2px var(--border-color);
+  margin-top: 2px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  margin-left: 2px;
+  transform: scale(1.025);
+  transition: transform 0.2s ease;
+}
+
+._itemRoot_1myzs_1._friendContainer_12n0h_59[data-selected="true"] {
+  background-color: var(--drawer-item-hover-background-color) !important;
+  border: solid 2px var(--border-color);
+  margin-top: 2px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  margin-left: 2px;
+}
+
+/* ==========================================================================
+   Mobile
+   ========================================================================== */
+
+/* Phone navigation bar */
+
+.mobileBottomPane._container_jg952_1._show_jg952_19 {
+  border: solid 2px var(--border-color);
+  margin-top: 12px;
+}
+
+.go2701703472 {
+  background-color: var(--pane-color) !important;
+}
+
+.go2701703472.go476946538 > .go2970725944 {
+  border: solid 2px rgba(0, 0, 0, 0) !important;
+}
+
+/* ==========================================================================
+   Messaging
+   ========================================================================== */
+
+/* Pop-up menu */
+
+._floatOptions_12hk8_107.floatOptions {
+  border: solid 2px var(--border-color);
+}
+
+/* Back-to-bottom pop-up */
+
+._messageArea_1pciz_150 ._backToBottom_1pciz_8 {
+  border: solid 2px var(--border-color) !important;
+}
+
+/* Misc button outline */
+
+._container_1qike_1 {
+  border: solid 0px var(--border-color) !important;
+}
+
+/* Messaging box */
+
+._textAreaContainer_1pciz_4._advancedMarkupShown_1pciz_408 {
+  border: solid 2px var(--border-color) !important;
+  border-radius: 6px !important;
+}
+
+/* Markdown options */
+
+._container_1ctlh_1._zeroBottomBorderRadius_1ctlh_20 {
+  border-radius: 6px !important;
+  margin-bottom: 6px;
+}
+
+/* Emoji menu background */
+
+._emojiPicker_19p1i_65 {
+  background-color: var(--pane-color) !important;
+}
+
+/* Emoji menu heading background */
+
+.go293357438 {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.go1412065832 {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Right-click menu */
+
+._contextMenu_7km1c_1 {
+  border: solid 2px var(--border-color) !important;
+}
+
+/* Profile outline */
+
+._flyoutInnerContainer_18doz_21 {
+  outline: 0px solid #fff3 !important;
+}
+
+/* Server invite */
+
+._serverInviteEmbed_12hk8_580 {
+  border: solid 2px var(--border-color) !important;
+  margin-top: 6px;
+}
+
+/* YouTube embed */
+
+._youtubeEmbed_12hk8_730 {
+  border: solid 2px var(--border-color) !important;
+  margin-top: 6px;
+}
+
+/* ==========================================================================
+   Nerimity servers
+   ========================================================================== */
+
+/* Server channel list */
+
+.go2336239359.go3463187318 {
+  background-color: var(--pane-color) !important;
+  border: solid 2px rgba(0, 0, 0, 0);
+  margin-top: 4px;
+  margin-right: 2px;
+  margin-bottom: 4px;
+  margin-left: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.go2336239359.go3463187318:hover {
+  background-color: var(--drawer-item-hover-background-color) !important;
+  border: solid 2px var(--border-color);
+  margin-top: 4px;
+  margin-right: 2px;
+  margin-bottom: 4px;
+  margin-left: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  transform: scale(1.025);
+  transition: transform 0.2s ease;
+}
+
+/* Selected channel */
+
+.go3747175756.go3158075832 {
+  background-color: var(--drawer-item-hover-background-color) !important;
+  border: solid 2px var(--border-color);
+  margin-top: 4px;
+  margin-right: 2px;
+  margin-bottom: 4px;
+  margin-left: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+/* Alerted channels */
+
+.go2336239359.go2683701063 {
+  background-color: var(--pane-color) !important;
+  border: solid 2px rgba(0, 0, 0, 0);
+  margin-top: 4px;
+  margin-right: 2px;
+  margin-bottom: 4px;
+  margin-left: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.go2336239359.go2683701063:hover {
+  background-color: var(--drawer-item-hover-background-color) !important;
+  border: solid 2px var(--border-color);
+  margin-top: 4px;
+  margin-right: 2px;
+  margin-bottom: 4px;
+  margin-left: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  transform: scale(1.025);
+  transition: transform 0.2s ease;
+}
+
+/* Selected alerted channel */
+
+.go3747175756.go1332526169 {
+  background-color: var(--drawer-item-hover-background-color) !important;
+  border: solid 2px var(--border-color);
+  margin-top: 4px;
+  margin-right: 2px;
+  margin-bottom: 4px;
+  margin-left: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+/* Server settings sidebar */
+
+.go2953153364.go3463187318 {
+  background-color: var(--pane-color) !important;
+  border: solid 2px rgba(0, 0, 0, 0);
+  margin-top: 4px;
+  margin-right: 2px;
+  margin-bottom: 4px;
+  margin-left: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.go2953153364.go3463187318:hover {
+  background-color: var(--drawer-item-hover-background-color) !important;
+  border: solid 2px var(--border-color);
+  margin-top: 4px;
+  margin-right: 2px;
+  margin-bottom: 4px;
+  margin-left: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  transform: scale(1.025);
+  transition: transform 0.2s ease;
+}
+
+/* Selected server setting */
+
+.go4294208085.go3158075832 {
+  background-color: var(--drawer-item-hover-background-color) !important;
+  border: solid 2px var(--border-color);
+  margin-top: 4px;
+  margin-right: 2px;
+  margin-bottom: 4px;
+  margin-left: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+
