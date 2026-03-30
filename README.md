@@ -8,7 +8,9 @@
 
 ##  Links To The Theme 🔗
 
-Paste this into the CSS section of Nerimity to apply the theme
+Paste this into the CSS section of Nerimity to apply the theme.
+You can find this under Settings - Interface - Scroll down to the bottom - Custom CSS.
+You can paste the code below here and then press Save & Apply to apply the theme.
 
 `@import url('https://weescottishman.github.io/CosyBreezeTheme/CosyBreezeTheme.css');`
 #### [Link To The Raw Importable CSS Code For Theme](https://weescottishman.github.io/CosyBreezeTheme/CosyBreezeTheme.css "Link to theme")
