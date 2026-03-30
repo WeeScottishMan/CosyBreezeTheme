@@ -1,7 +1,3 @@
-
-
-View all
-
 /* ═══════════════════════════════════════════════════
 CSS IMPORTS
 ═══════════════════════════════════════════════════ */
@@ -228,6 +224,7 @@ border-radius: 6px !important;
 
 ._box_16e2h_14 {
 background-color: rgba(0, 0, 0, 0);
+border: solid 2px var(--border-color);
 }
 
 /* Text Boxes/Drop Down Menu Background */
@@ -239,6 +236,11 @@ background-color: rgba(0, 0, 0, 0);
 .go2853948815 {
 border: solid 2px var(--border-color);
 background: var(--pane-color) !important;
+}
+
+.go3066892852 {
+  border: solid 2px var(--border-color);
+  background: var(--pane-color) !important;  
 }
 
 /* Circle Buttons */
