@@ -1,3 +1,18 @@
-Work in progress github page for theme (I will customise this soon, I promise....).
+# Cosy Breeze Theme For Nermity 🐈
 
-The theme is mostly compelete just waiting on support for css themes in Nerimity and for my lasy butt to customize this page.
+- A fully customised and full fledged nermity theme that attempts to improve on the usability, style, customisation and polish of the default client.
+
+- It currently is being supported for both desktop and mobile.
+
+- Please open up an issue if you encounter any bugs, flaws or inconsistancies with the theme.
+
+##  Links To The Theme 🔗
+
+Paste this into the CSS section of Nerimity to apply the theme
+
+`@import url('https://weescottishman.github.io/CosyBreezeTheme/CosyBreezeTheme.css');`
+#### [Link To The Raw Importable CSS Code For Theme](https://weescottishman.github.io/CosyBreezeTheme/CosyBreezeTheme.css "Link to theme")
+
+## Preview of the theme ✨️
+
+![](https://files.catbox.moe/towsrh.png)
