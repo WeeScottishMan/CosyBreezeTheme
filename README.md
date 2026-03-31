@@ -46,4 +46,5 @@ You can also make your own custom colour scheme with no CSS involved.
 ## Preview of the theme with included colour scheme ✨️
 
 ![](https://files.catbox.moe/towsrh.png)
-#### [Link To The Raw Importable CSS Code For Theme](https://weescottishman.github.io/CosyBreezeTheme/CosyBreezeTheme.css "Link to theme")
+#### [_Link To The Raw Importable CSS Code For Theme 🔗_](https://weescottishman.github.io/CosyBreezeTheme/CosyBreezeTheme.css "Link to theme")
+#### _Shoutout to Superkittens creation of the platform and the amazing work they do ♡_
