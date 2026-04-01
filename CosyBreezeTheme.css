@@ -209,6 +209,12 @@ body.disableBlur._container_1ctlh_1 {
   background: var(--pane-color) !important;  
 }
 
+/* Username Box */
+
+.go158536209 {
+  background-color: var(--pane-color);
+}
+
 /* ==========================================================================
    Homepage
    ========================================================================== */
@@ -433,6 +439,22 @@ body.disableBlur._container_1ctlh_1 {
 
 .go1412065832 {
   background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Gif Picker Menu */
+
+body.disableBlur ._outerEmojiPicker_19p1i_1:before {
+  background-color: var(--pane-color);
+}
+
+._outerEmojiPicker_19p1i_1:before {
+  background-color: var(--pane-color);
+}
+
+/* Gif Picker Logo*/
+
+._poweredByKlipy_19p1i_78 {
+  display: none;
 }
 
 /* Right-click menu */
