@@ -488,6 +488,32 @@ body.disableBlur ._outerEmojiPicker_19p1i_1:before {
   margin-top: 6px;  
 }
 
+/* Search Bar */
+
+._quickTravelBody_ibtgw_8 .go2853948815 {
+  background-color: rgba(0, 0, 0, 0) !important;
+  border-bottom: solid 2px var(--border-color) !important;
+}
+
+._quickTravelBody_ibtgw_8 .go3066892852 {
+  background-color: rgba(0, 0, 0, 0) !important;
+  border-bottom: solid 2px var(--border-color) !important;
+}
+
+._modalRoot_3dw2n_11._quickTravelRoot_ibtgw_1 {
+  border: solid 2px var(--border-color) !important;
+}
+
+.go2970725944 {
+  font-family: "Delius" !important;
+}
+
+/* General Searchbar Font */
+
+.go1741493984 input {
+  font-family: "Delius" !important;
+}
+
 /* ==========================================================================
    Nerimity servers
    ========================================================================== */
