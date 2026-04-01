@@ -221,6 +221,13 @@ body.disableBlur._container_1ctlh_1 {
   font-family: "Delius" !important;
 }
 
+/* Extension Buttons */
+
+.go474056747 ._container_1qike_1 {
+  background-color: var(--background-color) !important;
+  border: solid 2px var(--border-color) !important;
+}
+
 /* ==========================================================================
    Homepage
    ========================================================================== */
